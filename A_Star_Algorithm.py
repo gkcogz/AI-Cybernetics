@@ -17,8 +17,6 @@ WIN = pygame.display.set_mode((WIDTH, WIDTH))
 pygame.display.set_caption('A* Path Finding Algorithm by TTT, rewritten by Oguz Can Gökce')
 
 
-# Some colors are missing.
-
 RED = (255, 0, 0)
 GREEN = (0, 255, 0)
 BLUE = (0, 255, 0)
