@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kuimaze"
+version = "0.1.0"
+authors = [{ name = "Petr Pošík", email = "petr.posik@cvut.cz" }]
+description = "Maze environments (shortest path, MDP, RL) for educational purposes."
+readme = "README.md"
+requires-python = ">=3.11"
+# keywords = ["one", "two"]
+# license = {text = "BSD-3-Clause"}
+# classifiers = [
+#     "Programming Language :: Python :: 3",
+# ]
+dependencies = [
+    "pytest",
+    "pillow",
+    # 'importlib-metadata; python_version<"3.8"',
+]
+# dynamic = ["version"]
+
+# [project.optional-dependencies]
+# pdf = ["ReportLab>=1.2", "RXP"]
+# rest = ["docutils>=0.3", "pack ==1.1, ==1.3"]
+
+# [project.scripts]
+# my-script = "my_package.module:function"
+
+# ... other project metadata fields as listed in:
+#     https://packaging.python.org/en/latest/guides/writing-pyproject-toml/

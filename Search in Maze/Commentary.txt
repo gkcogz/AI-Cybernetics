@@ -1,0 +1,4 @@
+- Very well done in function descriptions and the explanation of your code.
+ It's an accepted practice to you """ """ for multi line; block comments for function descriptions instead of # for individual lines. 
+- It is advisable to have the path reversal as a new method.
+- Overall, it is a clean and very readable code. Well Done !
