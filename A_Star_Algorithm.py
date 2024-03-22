@@ -1,5 +1,5 @@
 # An Introduction to A* Algorithm
-# The originally written by Tech with Tim.
+# The code is originally written by Tech with Tim.
 
 import pygame
 import math
