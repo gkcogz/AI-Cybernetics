@@ -1,0 +1,8 @@
+for "knn":
+
+python knn.py -k 3 -o classification_1000_10.dsv --pca 50 "C:\Users\gokce\OneDrive\Desktop\CTU Prague\Cybernetics & AI\Assignments\Coding_Assignments\Machine Learning\train_1000_10\train" "C:\Users\gokce\OneDrive\Desktop\CTU Prague\Cybernetics & AI\Assignments\Coding_Assignments\Machine Learning\train_1000_10\test"
+
+
+for "naive_bayes":
+
+python naive_bayes.py -o classification_1000_10.dsv "C:\Users\gokce\OneDrive\Desktop\CTU Prague\Cybernetics & AI\Assignments\Coding_Assignments\Machine Learning\train_1000_10\train" "C:\Users\gokce\OneDrive\Desktop\CTU Prague\Cybernetics & AI\Assignments\Coding_Assignments\Machine Learning\train_1000_10\test"

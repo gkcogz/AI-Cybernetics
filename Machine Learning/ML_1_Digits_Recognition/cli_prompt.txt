@@ -1,0 +1,21 @@
+For train_1000_10 dataset:
+
+python knn.py "C:\Users\gokce\OneDrive\Desktop\CTU Prague\Cybernetics & AI\Assignments\Coding_Assignments\Machine Learning\train_1000_10\train_1000_10" "C:\Users\gokce\OneDrive\Desktop\CTU Prague\Cybernetics & AI\Assignments\Coding_Assignments\Machine Learning\train_1000_10\train_1000_10" -k 3 -o classification_1000_10.dsv
+
+python naive_bayes.py "C:\Users\gokce\OneDrive\Desktop\CTU Prague\Cybernetics & AI\Assignments\Coding_Assignments\Machine Learning\train_1000_10\train_1000_10" "C:\Users\gokce\OneDrive\Desktop\CTU Prague\Cybernetics & AI\Assignments\Coding_Assignments\Machine Learning\train_1000_10\train_1000_10" -o classification_1000_10.dsv
+
+
+For train_1000_28 dataset:
+
+python knn.py "C:\Users\gokce\OneDrive\Desktop\CTU Prague\Cybernetics & AI\Assignments\Coding_Assignments\Machine Learning\train_1000_28\train_1000_28" "C:\Users\gokce\OneDrive\Desktop\CTU Prague\Cybernetics & AI\Assignments\Coding_Assignments\Machine Learning\train_1000_28\train_1000_28" -k 3 -o classification_1000_28.dsv
+
+python naive_bayes.py "C:\Users\gokce\OneDrive\Desktop\CTU Prague\Cybernetics & AI\Assignments\Coding_Assignments\Machine Learning\train_1000_28\train_1000_28" "C:\Users\gokce\OneDrive\Desktop\CTU Prague\Cybernetics & AI\Assignments\Coding_Assignments\Machine Learning\train_1000_28\train_1000_28" -o classification_1000_28.dsv
+
+For train_700_28 dataset:
+
+python knn.py "C:\Users\gokce\OneDrive\Desktop\CTU Prague\Cybernetics & AI\Assignments\Coding_Assignments\Machine Learning\train_700_28\train_700_28" "C:\Users\gokce\OneDrive\Desktop\CTU Prague\Cybernetics & AI\Assignments\Coding_Assignments\Machine Learning\train_700_28\train_700_28" -k 3 -o classification_700_28.dsv
+
+python naive_bayes.py "C:\Users\gokce\OneDrive\Desktop\CTU Prague\Cybernetics & AI\Assignments\Coding_Assignments\Machine Learning\train_700_28\train_700_28" "C:\Users\gokce\OneDrive\Desktop\CTU Prague\Cybernetics & AI\Assignments\Coding_Assignments\Machine Learning\train_700_28\train_700_28" -o classification_700_28.dsv
+
+This way, each script runs independently on each dataset, handling images of different sizes correctly. Let me know if you need any further modifications or assistance!
+

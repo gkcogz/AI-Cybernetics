@@ -1,0 +1,7 @@
+Conclusion
+The k-NN classifier outperformed the Naive Bayes classifier, especially on the larger MNIST dataset. While Naive Bayes performed well on smaller datasets, its assumption of feature independence likely led to its lower performance on the more complex MNIST dataset.
+
+Recommendations
+k-NN Classifier is recommended for datasets with complex patterns, as it showed better overall performance.
+Naive Bayes Classifier can be a good choice for simpler or smaller datasets where the assumption of feature independence is more likely to hold true.
+These insights can guide the choice of classifier depending on the characteristics of the dataset at hand.

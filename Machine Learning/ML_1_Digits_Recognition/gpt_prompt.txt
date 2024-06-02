@@ -1,0 +1,4 @@
+So, gpt, i want to first paste here the instructions of my assignment, we will write two classifiers: 1-NN nearest neighbor classifier, the naive bayes classifier.
+
+We are allowed to use numpy and pillow.
+We will create two different codes based on classifier.py which contains methods of argparse which we will use later on Python CLI. I have already got the data, let's start with instructions, if you need the data, let me know. 
